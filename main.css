@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body main {
+  margin: 13px;
+}
+body main ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+body main ul li {
+  list-style: none;
+  padding: 15px;
+  background-color: #f7eee4;
+  border: 1px solid white;
+  cursor: pointer;
+}
+body main ul .active {
+  background-color: #ccc1c1;
+}
+body section {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body section .wrapper {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body section .wrapper .wrap {
+  background-color: #f7eee4;
+}
+body section .wrapper .wrap img {
+  width: 330px;
+  height: 330px;
+  padding: 3px;
+  transition: all 0.3s linear;
+}
+
+/*# sourceMappingURL=main.css.map */
